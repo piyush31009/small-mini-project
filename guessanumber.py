@@ -6,6 +6,7 @@ for i in range(0,3):
     if user==guess:
         a=1
         print("Hurray!!! you guess the right number..")
+        break
     else:
         print("Try Again!! you can do it")
 
